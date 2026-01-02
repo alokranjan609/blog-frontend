@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const http = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://blog-backend-agt0.onrender.com/api",
 });
 
 export default http;
